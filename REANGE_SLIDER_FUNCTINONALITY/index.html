@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			javascript_range_slider_task
+		</title>
+		<link rel="stylesheet" href="./style/style.css" />
+	</head>
+	<body>
+		<div class="content-wrapper">
+			<div>
+				<h1 id="slide_text">Slide Slider View Changes</h1>
+			</div>
+			<div class="slider_container" id="container">
+				<p id="inner_h3"></p>
+				<input id="range" type="range" min="0" max="1000" oninput="slider()" />
+			</div>
+		</div>
+		<script type="text/javascript">
+			function slider(){
+				var getRangeValue = document.getElementById("range").value;
+				var getSliderTextElement = document.getElementById("slide_text");
+				var getValueInPexel = getSliderTextElement.style.fontSize=  getRangeValue + "px";
+				var getInnerText = document.getElementById("inner_h3");
+				getInnerText.innerHTML="Your font size is now "+"= "+ getValueInPexel;
+			}
+		</script>
+	</body>
+</html>
