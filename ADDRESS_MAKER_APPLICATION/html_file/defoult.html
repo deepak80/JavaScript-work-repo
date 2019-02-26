@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<meta lang="en-us" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+	<head>
+		<link rel="stylesheet" href="../style/style.css">
+		<script src="../script/script.js"></script>
+		<title>
+			javascript_appliaction_task_2
+		</title>
+	</head>
+	
+	<body class="add_body">
+		<div class="rect">
+			<div class="wrapper">
+				<div class="header">
+					<header>
+						<h1>Address Maker</h1>
+						<center>An Online Address Creater Tool</center>
+					</header>
+				</div>
+				<div id="left_container">
+				<h1 id="form_header">Type Your Information Here</h1>
+					<form >
+						Name:<br />
+						<input type="text" id="text" />
+						<br />
+						Mobile No:<br />
+						<input type="number" name="mobile number" id="number_1" />
+						<br />
+						Alternate Mobile No:<br />
+						<input type="number" name="aleternate mobile number" id="number_2" />
+						<br />
+						S/O, W/O,H/O:<br />
+						<input type="text" id="name_2" />
+						<br />
+						Email:<br />
+						<input type="email" name="email" id="email" />
+						<br />
+						Address:<br />
+						<textarea rows="10" cols="60" id="address"></textarea>
+						<br />
+						<input  type="button" onclick="make_address()" value="Make" id="submit" />
+					</form>
+				</div>
+				
+				<div id="right_container">
+					<div id="inner_container">
+						<p id="inner_right_one_para"></p>
+						<br />	
+						<p id="inner_right_two_para"></p>
+						<div id="content_container">
+							
+							<h2 id="inner_h2"></h2>
+							<p id="inner_email_para"></p>
+							<p id="inner_parent_para"></p>
+							<p id="inner_info_para"></p>
+						</div>
+					</div>
+						<div id="button_container">
+						<button onclick="print()">Print</button>
+						<button onclick="bold()">Bold</button>
+						<button onclick="italic()">Italic</button>
+						<button onclick="undo()">undo</button>
+						</div>
+					</div>
+				</div>
+				 
+			</div>
+		</body>
+</html>

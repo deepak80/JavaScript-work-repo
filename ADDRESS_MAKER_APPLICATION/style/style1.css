@@ -1,0 +1,22 @@
+
+/*--------------first_task_coding-------------- */
+
+*{
+	box-sizing:border-box;
+}  
+body{
+	background-image:url(../images/background_page.jpg);
+	background-size:100%,100%;
+	color:white;
+	
+}
+#first_h1{
+	text-align:center;
+}
+
+#first,#last{
+	margin-bottom:20px;
+}
+
+
+/*----------------first_task_coding_end-------------*/

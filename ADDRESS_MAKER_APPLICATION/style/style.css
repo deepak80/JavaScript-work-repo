@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+.rect {
+	width: 1520px;
+	height: 1000px;
+	background-color: rgba(0,0,0,0.5);
+	float: left;
+}
+
+.add_body {
+	box-sizing: border-box;
+	background-image: url(../images/background_page_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1349px;
+	height: 1000px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	float: left;
+}
+
+header {
+	border-bottom: 1px solid lightgrey;
+	float: left;
+	width: 1349px;
+	height: 104px;
+	margin-bottom: 80px;
+}
+
+h1 {
+	text-align: center;
+	font-family: cursive;
+	color: #FEFEFE;
+	font-size: 50px;
+}
+
+center {
+	font-family: calibri;\
+	display: block;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 18px;
+}
+
+#left_container {
+	width: 480px;
+	height: 750px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	color: white;
+	font-size: 20px;
+	margin-left: 90px;
+	margin-right: 250px;
+}
+
+#form_header {
+	font-family: none;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+input[type="text"],input[type="number"],input[type="email"] {
+	width: 470px;
+	height: 30px;
+	border: none;
+	padding-left: 5px;
+	background-color: rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 15px 10px grey;
+	-moz-box-shadow: 0px 5px 15px grey;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+input[type="button"] {
+	width: 88px;
+	height: 38px;
+	font-family: calibri;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 15px 10px grey;
+	-moz-box-shadow: 0px 5px 15px grey;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 15px;
+	border: none;
+	float: right;
+	cursor:  pointer;
+}
+
+textarea {
+	background-color: rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 15px 10px grey;
+	-moz-box-shadow: 0px 5px 15px grey;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.6);
+	color: #fff;
+	border: none;
+	margin-bottom: 20px;
+}
+
+
+#right_container {
+	width: 450px;
+	height: 330px;
+	float: left;
+	border: 1px solid lightgrey;
+}
+
+#inner_container {
+	width: 100%;
+	height: 248px;
+	border: 1px solid lightgrey;
+	float: left;
+	background-image: url(../images/card.jpg);
+	background-size: 448px 248px;
+	background-repeat: no-repeat;
+}
+
+#button_container {
+	float: left;
+	padding-left: 18px;
+}
+
+button {
+	width: 100px;
+	height: 42px;
+	background-color: rgba(0,0,0,0.5);
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+
+#content_container {
+	float: left;
+	width: 100%;
+	color: white;
+	padding-left: 70px;
+	padding-top: 40px;
+}
+
+#inner_h2 {
+	color: #fec528;
+	font-family: cursive;
+	font-weight: normal;
+}
+
+#inner_parent_para,#inner_email_para,#inner_info_para {
+	line-height: 24px;
+}
+ 
+#inner_right_one_para,#inner_right_two_para {
+	float: right;
+	color: #fec528;
+	padding-right: 60px;
+}
